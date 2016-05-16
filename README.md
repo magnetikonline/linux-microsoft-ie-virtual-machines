@@ -14,13 +14,14 @@ Has been tested under Ubuntu 14.04LTS (and previously 12.04LTS) with [VirtualBox
 	- [IE11 - Windows 7](#ie11---windows-7)
 	- [IE11 - Windows 8.1](#ie11---windows-81)
 	- [IE11 - Windows 10](#ie11---windows-10)
-	- [MS Edge - Windows 10](#ms-edge---windows-10)
+	- [MS Edge - Windows 10 Stable (13.10586)](#ms-edge---windows-10-stable-1310586)
+	- [MS Edge - Windows 10 Preview (14.14342)](#ms-edge---windows-10-preview-1414342)
 - [Activating images](#activating-images)
 - [Rearming images](#rearming-images)
 - [Reference](#reference)
 
 ## General notes
-- Download, re-construct and decompress archive image as per instructions below.
+- Download, re-construct and decompress archive image as per each images instructions below.
 - From VirtualBox goto `File` -> `Import Appliance...`
 - Select the decompressed Open Virtualization Format `ovf` file.
 - Review virtual machine name and settings (adjusting to suit if required), then click `Import`.
@@ -164,15 +165,28 @@ $ rm ie11-windows10.txt IE11.Win10.For.Linux.VirtualBox.zip*
 - **Note:** The currently available Windows 10/IE11 image has [expired and raised as a bug with Microsoft](https://connect.microsoft.com/IE/feedback/details/1326730/problem-with-windows-10-on-windows-7-virtual-box). As noted, setting your system date **before** April 15th, 2015 will allow this expired image to boot.
 
 
-### MS Edge - Windows 10
+### MS Edge - Windows 10 Stable (13.10586)
 ```sh
-$ mkdir -p ~/vm/msedge-windows10 && cd ~/vm/msedge-windows10
-$ wget -i https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/msedge-windows10.txt
+$ mkdir -p ~/vm/msedge-windows10-13.10586 && cd ~/vm/msedge-windows10-13.10586
+$ wget -i https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/msedge-windows10-13.10586.txt
 $ unzip MSEdge.Win10TH2.VirtualBox.zip
-$ rm msedge-windows10.txt MSEdge.Win10TH2.VirtualBox.zip
+$ rm msedge-windows10-13.10586.txt MSEdge.Win10TH2.VirtualBox.zip
 ```
 
 - Use the resulting `MSEdge - Win10TH2.ova` with VirtualBox.
+- Recommended 2048MB RAM minimum.
+- After install you will need to [activate the trial](#activating-images) to gain a full 90 days usage period, after which you may be able to [rearm the image](#rearming-images).
+
+
+### MS Edge - Windows 10 Preview (14.14342)
+```sh
+$ mkdir -p ~/vm/msedge-windows10-14.14342 && cd ~/vm/msedge-windows10-14.14342
+$ wget -i https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/msedge-windows10-14.14342.txt
+$ unzip MSEdge.Win10_preview.VirtualBox.zip
+$ rm msedge-windows10-14.14342.txt MSEdge.Win10_preview.VirtualBox.zip
+```
+
+- Use the resulting `MSEdge - Win10_14342.ova` with VirtualBox.
 - Recommended 2048MB RAM minimum.
 - After install you will need to [activate the trial](#activating-images) to gain a full 90 days usage period, after which you may be able to [rearm the image](#rearming-images).
 
