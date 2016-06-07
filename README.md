@@ -41,7 +41,7 @@ Has been tested under Ubuntu 14.04LTS (and previously 12.04LTS) with [VirtualBox
 
 ```sh
 $ mkdir -p ~/vm/ie7-vista && cd ~/vm/ie7-vista
-$ wget -i https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/ie7-vista.txt
+$ wget -ci https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/ie7-vista.txt
 $ cat IE7.Vista.For.Linux.VirtualBox.zip.00? >IE7.Vista.For.Linux.VirtualBox.zip
 $ unzip IE7.Vista.For.Linux.VirtualBox.zip
 $ rm ie7-vista.txt IE7.Vista.For.Linux.VirtualBox.zip*
@@ -55,7 +55,7 @@ $ rm ie7-vista.txt IE7.Vista.For.Linux.VirtualBox.zip*
 ### IE8 - XP
 ```sh
 $ mkdir -p ~/vm/ie8-xp && cd ~/vm/ie8-xp
-$ wget -i https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/ie8-xp.txt
+$ wget -ci https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/ie8-xp.txt
 $ cat IE8.XP.For.Linux.VirtualBox.zip.00? >IE8.XP.For.Linux.VirtualBox.zip
 $ unzip IE8.XP.For.Linux.VirtualBox.zip
 $ rm ie8-xp.txt IE8.XP.For.Linux.VirtualBox.zip*
@@ -69,7 +69,7 @@ $ rm ie8-xp.txt IE8.XP.For.Linux.VirtualBox.zip*
 ### IE8 - Windows 7
 ```sh
 $ mkdir -p ~/vm/ie8-windows7 && cd ~/vm/ie8-windows7
-$ wget -i https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/ie8-windows7.txt
+$ wget -ci https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/ie8-windows7.txt
 $ cat IE8.Win7.For.Windows.VirtualBox.zip.00? >IE8.Win7.For.Linux.VirtualBox.zip
 $ unzip IE8.Win7.For.Linux.VirtualBox.zip
 $ rm ie8-windows7.txt IE8.Win7.For.*.VirtualBox.zip*
@@ -83,7 +83,7 @@ $ rm ie8-windows7.txt IE8.Win7.For.*.VirtualBox.zip*
 ### IE9 - Windows 7
 ```sh
 $ mkdir -p ~/vm/ie9-windows7 && cd ~/vm/ie9-windows7
-$ wget -i https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/ie9-windows7.txt
+$ wget -ci https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/ie9-windows7.txt
 $ cat IE9.Win7.For.Linux.VirtualBox.zip.00? >IE9.Win7.For.Linux.VirtualBox.zip
 $ unzip IE9.Win7.For.Linux.VirtualBox.zip
 $ rm ie9-windows7.txt IE9.Win7.For.Linux.VirtualBox.zip*
@@ -97,7 +97,7 @@ $ rm ie9-windows7.txt IE9.Win7.For.Linux.VirtualBox.zip*
 ### IE10 - Windows 7
 ```sh
 $ mkdir -p ~/vm/ie10-windows7 && cd ~/vm/ie10-windows7
-$ wget -i https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/ie10-windows7.txt
+$ wget -ci https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/ie10-windows7.txt
 $ cat IE10.Win7.For.Linux.VirtualBox.zip.00? >IE10.Win7.For.Linux.VirtualBox.zip
 $ unzip IE10.Win7.For.Linux.VirtualBox.zip
 $ rm ie10-windows7.txt IE10.Win7.For.Linux.VirtualBox.zip*
@@ -111,7 +111,7 @@ $ rm ie10-windows7.txt IE10.Win7.For.Linux.VirtualBox.zip*
 ### IE10 - Windows 8
 ```sh
 $ mkdir -p ~/vm/ie10-windows8 && cd ~/vm/ie10-windows8
-$ wget -i https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/ie10-windows8.txt
+$ wget -ci https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/ie10-windows8.txt
 $ cat IE10.Win8.For.Linux.VirtualBox.zip.00? >IE10.Win8.For.Linux.VirtualBox.zip
 $ unzip IE10.Win8.For.Linux.VirtualBox.zip
 $ rm ie10-windows8.txt IE10.Win8.For.Linux.VirtualBox.zip*
@@ -125,7 +125,7 @@ $ rm ie10-windows8.txt IE10.Win8.For.Linux.VirtualBox.zip*
 ### IE11 - Windows 7
 ```sh
 $ mkdir -p ~/vm/ie11-windows7 && cd ~/vm/ie11-windows7
-$ wget -i https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/ie11-windows7.txt
+$ wget -ci https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/ie11-windows7.txt
 $ cat IE11.Win7.For.Linux.VirtualBox.zip.00? >IE11.Win7.For.Linux.VirtualBox.zip
 $ unzip IE11.Win7.For.Linux.VirtualBox.zip
 $ rm ie11-windows7.txt IE11.Win7.For.Linux.VirtualBox.zip*
@@ -139,7 +139,7 @@ $ rm ie11-windows7.txt IE11.Win7.For.Linux.VirtualBox.zip*
 ### IE11 - Windows 8.1
 ```sh
 $ mkdir -p ~/vm/ie11-windows8.1 && cd ~/vm/ie11-windows8.1
-$ wget -i https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/ie11-windows8.1.txt
+$ wget -ci https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/ie11-windows8.1.txt
 $ cat IE11.Win8.1.For.Linux.VirtualBox.zip.00? >IE11.Win8.1.For.Linux.VirtualBox.zip
 $ unzip IE11.Win8.1.For.Linux.VirtualBox.zip
 $ rm ie11-windows8.1.txt IE11.Win8.1.For.Linux.VirtualBox.zip*
@@ -153,7 +153,7 @@ $ rm ie11-windows8.1.txt IE11.Win8.1.For.Linux.VirtualBox.zip*
 ### IE11 - Windows 10
 ```sh
 $ mkdir -p ~/vm/ie11-windows10 && cd ~/vm/ie11-windows10
-$ wget -i https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/ie11-windows10.txt
+$ wget -ci https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/ie11-windows10.txt
 $ cat IE11.Win10.For.Linux.VirtualBox.zip.00? >IE11.Win10.For.Linux.VirtualBox.zip
 $ unzip IE11.Win10.For.Linux.VirtualBox.zip
 $ rm ie11-windows10.txt IE11.Win10.For.Linux.VirtualBox.zip*
@@ -168,7 +168,7 @@ $ rm ie11-windows10.txt IE11.Win10.For.Linux.VirtualBox.zip*
 ### MS Edge - Windows 10 Stable (13.10586)
 ```sh
 $ mkdir -p ~/vm/msedge-windows10-13.10586 && cd ~/vm/msedge-windows10-13.10586
-$ wget -i https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/msedge-windows10-13.10586.txt
+$ wget -ci https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/msedge-windows10-13.10586.txt
 $ unzip MSEdge.Win10TH2.VirtualBox.zip
 $ rm msedge-windows10-13.10586.txt MSEdge.Win10TH2.VirtualBox.zip
 ```
@@ -181,7 +181,7 @@ $ rm msedge-windows10-13.10586.txt MSEdge.Win10TH2.VirtualBox.zip
 ### MS Edge - Windows 10 Preview (14.14342)
 ```sh
 $ mkdir -p ~/vm/msedge-windows10-14.14342 && cd ~/vm/msedge-windows10-14.14342
-$ wget -i https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/msedge-windows10-14.14342.txt
+$ wget -ci https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/msedge-windows10-14.14342.txt
 $ unzip MSEdge.Win10_preview.VirtualBox.zip
 $ rm msedge-windows10-14.14342.txt MSEdge.Win10_preview.VirtualBox.zip
 ```
