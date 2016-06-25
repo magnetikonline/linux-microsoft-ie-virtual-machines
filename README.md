@@ -29,7 +29,8 @@ Has been tested under Ubuntu 14.04LTS (and previously 12.04LTS) with [VirtualBox
 - All images are **32bit** virtual machines *except* for the following, which are **64 bit**:
 	- [IE7 - Vista Enterprise](#ie7---vista-enterprise)
 	- [IE11 - Windows 10](#ie11---windows-10)
-	- [MS Edge - Windows 10](#ms-edge---windows-10)
+	- [MS Edge - Windows 10 Stable (13.10586)](#ms-edge---windows-10-stable-1310586)
+	- [MS Edge - Windows 10 Preview (14.14342)](#ms-edge---windows-10-preview-1414342)
 - You may need to update the images installed **VirtualBox Guest Additions** after VM startup to match that of your VirtualBox version.
 - It's a smart idea to keep a clean copy of each `ovf` disk image once the OS usage period ends, to avoid a full image re-download hit.
 
