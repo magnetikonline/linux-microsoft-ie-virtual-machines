@@ -1,7 +1,7 @@
 # Running IE 7/8/9/10/11/Edge Virtual machines from Microsoft under Linux via VirtualBox
 Detailed step-by-step notes for installing the [Microsoft provided Internet Explorer virtual machines](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/linux/) under Linux using VirtualBox.
 
-Has been tested under Ubuntu 14.04LTS (and previously 12.04LTS) with [VirtualBox](https://www.virtualbox.org) version 5.0.
+Has been tested under Ubuntu 16.04LTS (previously 14.04LTS) with [VirtualBox](https://www.virtualbox.org) version 5.1.
 
 - [General notes](#general-notes)
 - [Available images](#available-images)
@@ -16,6 +16,7 @@ Has been tested under Ubuntu 14.04LTS (and previously 12.04LTS) with [VirtualBox
 	- [IE11 - Windows 10](#ie11---windows-10)
 	- [MS Edge - Windows 10 Stable (13.10586)](#ms-edge---windows-10-stable-1310586)
 	- [MS Edge - Windows 10 Preview (14.14342)](#ms-edge---windows-10-preview-1414342)
+	- [MS Edge - Windows 10 Stable (14.14393)](#ms-edge---windows-10-stable-1414393)
 - [Activating images](#activating-images)
 - [Rearming images](#rearming-images)
 - [Reference](#reference)
@@ -188,6 +189,19 @@ $ rm msedge-windows10-14.14342.txt MSEdge.Win10_preview.VirtualBox.zip
 ```
 
 - Use the resulting `MSEdge - Win10_14342.ova` with VirtualBox.
+- Recommended 2048MB RAM minimum.
+- After install you will need to [activate the trial](#activating-images) to gain a full 90 days usage period, after which you may be able to [rearm the image](#rearming-images).
+
+
+### MS Edge - Windows 10 Stable (14.14393)
+```sh
+$ mkdir -p ~/vm/msedge-windows10-14.14393 && cd ~/vm/msedge-windows10-14.14393
+$ wget -ci https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/msedge-windows10-14.14393.txt
+$ unzip MSEdge.Win10_RS1.VirtualBox.zip
+$ rm msedge-windows10-14.14393.txt MSEdge.Win10_RS1.VirtualBox.zip
+```
+
+- Use the resulting `MSEdge - Win10_preview.ova` with VirtualBox.
 - Recommended 2048MB RAM minimum.
 - After install you will need to [activate the trial](#activating-images) to gain a full 90 days usage period, after which you may be able to [rearm the image](#rearming-images).
 
