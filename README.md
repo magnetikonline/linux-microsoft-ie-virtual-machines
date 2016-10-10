@@ -45,7 +45,7 @@ Has been tested under Ubuntu 16.04LTS (previously 14.04LTS) with [VirtualBox](ht
 $ mkdir -p ~/vm/ie7-vista && cd ~/vm/ie7-vista
 $ wget -ci https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/ie7-vista.txt
 $ cat IE7.Vista.For.Linux.VirtualBox.zip.00? >IE7.Vista.For.Linux.VirtualBox.zip
-$ rm ie7-vista.txt IE7.Vista.For.Linux.VirtualBox.zip.*
+$ rm ie7-vista.txt IE7.Vista.For.Linux.VirtualBox.zip.00?
 $ unzip IE7.Vista.For.Linux.VirtualBox.zip
 $ rm IE7.Vista.For.Linux.VirtualBox.zip
 ```
@@ -60,7 +60,7 @@ $ rm IE7.Vista.For.Linux.VirtualBox.zip
 $ mkdir -p ~/vm/ie8-xp && cd ~/vm/ie8-xp
 $ wget -ci https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/ie8-xp.txt
 $ cat IE8.XP.For.Linux.VirtualBox.zip.00? >IE8.XP.For.Linux.VirtualBox.zip
-$ rm ie8-xp.txt IE8.XP.For.Linux.VirtualBox.zip.*
+$ rm ie8-xp.txt IE8.XP.For.Linux.VirtualBox.zip.00?
 $ unzip IE8.XP.For.Linux.VirtualBox.zip
 $ rm IE8.XP.For.Linux.VirtualBox.zip
 ```
@@ -75,7 +75,7 @@ $ rm IE8.XP.For.Linux.VirtualBox.zip
 $ mkdir -p ~/vm/ie8-windows7 && cd ~/vm/ie8-windows7
 $ wget -ci https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/ie8-windows7.txt
 $ cat IE8.Win7.For.Windows.VirtualBox.zip.00? >IE8.Win7.For.Linux.VirtualBox.zip
-$ rm ie8-windows7.txt IE8.Win7.For.*.VirtualBox.zip.*
+$ rm ie8-windows7.txt IE8.Win7.For.Windows.VirtualBox.zip.00?
 $ unzip IE8.Win7.For.Linux.VirtualBox.zip
 $ rm IE8.Win7.For.Linux.VirtualBox.zip
 ```
@@ -90,7 +90,7 @@ $ rm IE8.Win7.For.Linux.VirtualBox.zip
 $ mkdir -p ~/vm/ie9-windows7 && cd ~/vm/ie9-windows7
 $ wget -ci https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/ie9-windows7.txt
 $ cat IE9.Win7.For.Linux.VirtualBox.zip.00? >IE9.Win7.For.Linux.VirtualBox.zip
-$ rm ie9-windows7.txt IE9.Win7.For.Linux.VirtualBox.zip.*
+$ rm ie9-windows7.txt IE9.Win7.For.Linux.VirtualBox.zip.00?
 $ unzip IE9.Win7.For.Linux.VirtualBox.zip
 $ rm IE9.Win7.For.Linux.VirtualBox.zip
 ```
@@ -105,7 +105,7 @@ $ rm IE9.Win7.For.Linux.VirtualBox.zip
 $ mkdir -p ~/vm/ie10-windows7 && cd ~/vm/ie10-windows7
 $ wget -ci https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/ie10-windows7.txt
 $ cat IE10.Win7.For.Linux.VirtualBox.zip.00? >IE10.Win7.For.Linux.VirtualBox.zip
-$ rm ie10-windows7.txt IE10.Win7.For.Linux.VirtualBox.zip.*
+$ rm ie10-windows7.txt IE10.Win7.For.Linux.VirtualBox.zip.00?
 $ unzip IE10.Win7.For.Linux.VirtualBox.zip
 $ rm IE10.Win7.For.Linux.VirtualBox.zip
 ```
@@ -120,7 +120,7 @@ $ rm IE10.Win7.For.Linux.VirtualBox.zip
 $ mkdir -p ~/vm/ie10-windows8 && cd ~/vm/ie10-windows8
 $ wget -ci https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/ie10-windows8.txt
 $ cat IE10.Win8.For.Linux.VirtualBox.zip.00? >IE10.Win8.For.Linux.VirtualBox.zip
-$ rm ie10-windows8.txt IE10.Win8.For.Linux.VirtualBox.zip.*
+$ rm ie10-windows8.txt IE10.Win8.For.Linux.VirtualBox.zip.00?
 $ unzip IE10.Win8.For.Linux.VirtualBox.zip
 $ rm IE10.Win8.For.Linux.VirtualBox.zip
 ```
@@ -135,7 +135,7 @@ $ rm IE10.Win8.For.Linux.VirtualBox.zip
 $ mkdir -p ~/vm/ie11-windows7 && cd ~/vm/ie11-windows7
 $ wget -ci https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/ie11-windows7.txt
 $ cat IE11.Win7.For.Linux.VirtualBox.zip.00? >IE11.Win7.For.Linux.VirtualBox.zip
-$ rm ie11-windows7.txt IE11.Win7.For.Linux.VirtualBox.zip.*
+$ rm ie11-windows7.txt IE11.Win7.For.Linux.VirtualBox.zip.00?
 $ unzip IE11.Win7.For.Linux.VirtualBox.zip
 $ rm IE11.Win7.For.Linux.VirtualBox.zip
 ```
@@ -150,7 +150,7 @@ $ rm IE11.Win7.For.Linux.VirtualBox.zip
 $ mkdir -p ~/vm/ie11-windows8.1 && cd ~/vm/ie11-windows8.1
 $ wget -ci https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/ie11-windows8.1.txt
 $ cat IE11.Win8.1.For.Linux.VirtualBox.zip.00? >IE11.Win8.1.For.Linux.VirtualBox.zip
-$ rm ie11-windows8.1.txt IE11.Win8.1.For.Linux.VirtualBox.zip.*
+$ rm ie11-windows8.1.txt IE11.Win8.1.For.Linux.VirtualBox.zip.00?
 $ unzip IE11.Win8.1.For.Linux.VirtualBox.zip
 $ rm IE11.Win8.1.For.Linux.VirtualBox.zip
 ```
@@ -165,7 +165,7 @@ $ rm IE11.Win8.1.For.Linux.VirtualBox.zip
 $ mkdir -p ~/vm/ie11-windows10 && cd ~/vm/ie11-windows10
 $ wget -ci https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/ie11-windows10.txt
 $ cat IE11.Win10.For.Linux.VirtualBox.zip.00? >IE11.Win10.For.Linux.VirtualBox.zip
-$ rm ie11-windows10.txt IE11.Win10.For.Linux.VirtualBox.zip.*
+$ rm ie11-windows10.txt IE11.Win10.For.Linux.VirtualBox.zip.00?
 $ unzip IE11.Win10.For.Linux.VirtualBox.zip
 $ rm IE11.Win10.For.Linux.VirtualBox.zip
 ```
