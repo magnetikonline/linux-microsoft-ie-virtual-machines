@@ -161,6 +161,8 @@ $ rm IE11.Win8.1.For.Linux.VirtualBox.zip
 
 
 ### IE11 - Windows 10
+**Important:** This [image has expired](https://connect.microsoft.com/IE/feedback/details/1326730/problem-with-windows-10-on-windows-7-virtual-box) and raised as a bug with Microsoft. As noted (and have personally confirmed), setting your host system clock anytime **before** `April 15th, 2015` will allow the image to boot. Unfortunately you will need to do this _each and every_ image bootup.
+
 ```sh
 $ mkdir -p ~/vm/ie11-windows10 && cd ~/vm/ie11-windows10
 $ wget -ci https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/ie11-windows10.txt
@@ -173,7 +175,6 @@ $ rm IE11.Win10.For.Linux.VirtualBox.zip
 - Use the resulting `IE11 - Win10.ova` with VirtualBox.
 - Recommended 1024MB RAM minimum.
 - After install you will need to [activate the trial](#activating-images) to gain a full 90 days usage period, after which you may be able to [rearm the image](#rearming-images).
-- **Note:** The currently available Windows 10/IE11 image has [expired and raised as a bug with Microsoft](https://connect.microsoft.com/IE/feedback/details/1326730/problem-with-windows-10-on-windows-7-virtual-box). As noted, setting your system date **before** April 15th, 2015 will allow this expired image to boot.
 
 
 ### MS Edge - Windows 10 Stable (13.10586)
