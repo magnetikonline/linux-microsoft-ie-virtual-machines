@@ -5,8 +5,9 @@ Has been tested under Ubuntu 16.04LTS (previously 14.04LTS) with [VirtualBox](ht
 
 - [General notes](#general-notes)
 - [Available images](#available-images)
+	- [IE6 - Windows XP](#ie6---windows-xp)
 	- [IE7 - Vista Enterprise](#ie7---vista-enterprise)
-	- [IE8 - XP](#ie8---xp)
+	- [IE8 - Windows XP](#ie8---windows-xp)
 	- [IE8 - Windows 7](#ie8---windows-7)
 	- [IE9 - Windows 7](#ie9---windows-7)
 	- [IE10 - Windows 7](#ie10---windows-7)
@@ -38,6 +39,21 @@ Has been tested under Ubuntu 16.04LTS (previously 14.04LTS) with [VirtualBox](ht
 
 ## Available images
 
+### IE6 - Windows XP
+```sh
+$ mkdir -p ~/vm/ie6-windowsxp && cd ~/vm/ie6-windowsxp
+$ wget -ci https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/ie6-windowsxp.txt
+$ cat IE6.XP.For.Linux.VirtualBox.zip.00? >IE6.XP.For.Linux.VirtualBox.zip
+$ rm ie6-windowsxp.txt IE6.XP.For.Linux.VirtualBox.zip.00?
+$ unzip IE6.XP.For.Linux.VirtualBox.zip
+$ rm IE6.XP.For.Linux.VirtualBox.zip
+```
+
+- Use the resulting `IE6 - WinXP.ova` with VirtualBox.
+- Recommended 256MB RAM minimum.
+- Image will give a total of 30 days of use, after which you may be able to [rearm the image](#rearming-images).
+
+
 ### IE7 - Vista Enterprise
 **Note:** Sadly no "IE7 with XP" image has been provided by Microsoft, which *could* have offered a smaller download.
 
@@ -55,12 +71,12 @@ $ rm IE7.Vista.For.Linux.VirtualBox.zip
 - Image will give a total of 30 days of use, after which you may be able to [rearm the image](#rearming-images).
 
 
-### IE8 - XP
+### IE8 - Windows XP
 ```sh
-$ mkdir -p ~/vm/ie8-xp && cd ~/vm/ie8-xp
-$ wget -ci https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/ie8-xp.txt
+$ mkdir -p ~/vm/ie8-windowsxp && cd ~/vm/ie8-windowsxp
+$ wget -ci https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/ie8-windowsxp.txt
 $ cat IE8.XP.For.Linux.VirtualBox.zip.00? >IE8.XP.For.Linux.VirtualBox.zip
-$ rm ie8-xp.txt IE8.XP.For.Linux.VirtualBox.zip.00?
+$ rm ie8-windowsxp.txt IE8.XP.For.Linux.VirtualBox.zip.00?
 $ unzip IE8.XP.For.Linux.VirtualBox.zip
 $ rm IE8.XP.For.Linux.VirtualBox.zip
 ```
