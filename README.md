@@ -19,6 +19,7 @@ Has been tested under Ubuntu 16.04LTS (previously 14.04LTS) with [VirtualBox](ht
 	- [MS Edge - Windows 10 Preview (14.14342)](#ms-edge---windows-10-preview-1414342)
 	- [MS Edge - Windows 10 Stable (14.14393)](#ms-edge---windows-10-stable-1414393)
 	- [MS Edge - Windows 10 Preview (15.14959)](#ms-edge---windows-10-preview-1514959)
+	- [MS Edge - Windows 10 Preview (15.15014)](#ms-edge---windows-10-preview-1515014)
 - [Activating images](#activating-images)
 - [Rearming images](#rearming-images)
 - [Reference](#reference)
@@ -34,6 +35,9 @@ Has been tested under Ubuntu 16.04LTS (previously 14.04LTS) with [VirtualBox](ht
 	- [IE11 - Windows 10](#ie11---windows-10)
 	- [MS Edge - Windows 10 Stable (13.10586)](#ms-edge---windows-10-stable-1310586)
 	- [MS Edge - Windows 10 Preview (14.14342)](#ms-edge---windows-10-preview-1414342)
+	- [MS Edge - Windows 10 Stable (14.14393)](#ms-edge---windows-10-stable-1414393)
+	- [MS Edge - Windows 10 Preview (15.14959)](#ms-edge---windows-10-preview-1514959)
+	- [MS Edge - Windows 10 Preview (15.15014)](#ms-edge---windows-10-preview-1515014)
 - You may need to update the images installed **VirtualBox Guest Additions** after VM startup to match that of your VirtualBox version.
 - It's a smart idea to keep a clean copy of each `ovf` disk image once the OS usage period ends, to avoid a full image re-download hit.
 
@@ -239,6 +243,19 @@ $ mkdir -p ~/vm/msedge-windows10-15.14959 && cd ~/vm/msedge-windows10-15.14959
 $ wget -ci https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/msedge-windows10-15.14959.txt
 $ unzip MSEdge.Win10_preview.VirtualBox.zip
 $ rm msedge-windows10-15.14959.txt MSEdge.Win10_preview.VirtualBox.zip
+```
+
+- Use the resulting `MSEdge - Win10_preview.ova` with VirtualBox.
+- Recommended 2048MB RAM minimum.
+- After install you will need to [activate the trial](#activating-images) to gain a full 90 days usage period, after which you may be able to [rearm the image](#rearming-images).
+
+
+### MS Edge - Windows 10 Preview (15.15014)
+```sh
+$ mkdir -p ~/vm/msedge-windows10-15.15014 && cd ~/vm/msedge-windows10-15.15014
+$ wget -ci https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/msedge-windows10-15.15014.txt
+$ unzip MSEdge.Win10_preview.VirtualBox.zip
+$ rm msedge-windows10-15.15014.txt MSEdge.Win10_preview.VirtualBox.zip
 ```
 
 - Use the resulting `MSEdge - Win10_preview.ova` with VirtualBox.
