@@ -20,6 +20,7 @@ Has been tested under Ubuntu 16.04LTS (previously 14.04LTS) with [VirtualBox](ht
 	- [MS Edge - Windows 10 Stable (14.14393)](#ms-edge---windows-10-stable-1414393)
 	- [MS Edge - Windows 10 Preview (15.14959)](#ms-edge---windows-10-preview-1514959)
 	- [MS Edge - Windows 10 Preview (15.15014)](#ms-edge---windows-10-preview-1515014)
+	- [MS Edge - Windows 10 Preview (15.15063)](#ms-edge---windows-10-preview-1515063)
 - [Activating images](#activating-images)
 - [Rearming images](#rearming-images)
 - [Reference](#reference)
@@ -261,6 +262,20 @@ $ rm msedge-windows10-15.15014.txt MSEdge.Win10_preview.VirtualBox.zip
 - Use the resulting `MSEdge - Win10_preview.ova` with VirtualBox.
 - Recommended 2048MB RAM minimum.
 - After install you will need to [activate the trial](#activating-images) to gain a full 90 days usage period, after which you may be able to [rearm the image](#rearming-images).
+
+
+### MS Edge - Windows 10 Preview (15.15063)
+```sh
+$ mkdir -p ~/vm/msedge-windows10-15.15063 && cd ~/vm/msedge-windows10-15.15063
+$ wget -ci https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/msedge-windows10-15.15063.txt
+$ unzip MSEdge.Win10_preview.VirtualBox.zip
+$ rm msedge-windows10-15.15063.txt MSEdge.Win10_preview.VirtualBox.zip
+```
+
+- Use the resulting `MSEdge - Win10_preview.ova` with VirtualBox.
+- Recommended 2048MB RAM minimum.
+- After install you will need to [activate the trial](#activating-images) to gain a full 90 days usage period, after which you may be able to [rearm the image](#rearming-images).
+- **Note:** this release will prompt for password on bootup for the `IEUser` user. Supply the password of `Passw0rd!` to proceed with login.
 
 
 ## Activating images
