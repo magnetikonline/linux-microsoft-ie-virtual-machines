@@ -1,6 +1,1 @@
-https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VirtualBox/IE11/Linux/IE11.Win8.1.For.Linux.VirtualBox.zip.001
-https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VirtualBox/IE11/Linux/IE11.Win8.1.For.Linux.VirtualBox.zip.002
-https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VirtualBox/IE11/Linux/IE11.Win8.1.For.Linux.VirtualBox.zip.003
-https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VirtualBox/IE11/Linux/IE11.Win8.1.For.Linux.VirtualBox.zip.004
-https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VirtualBox/IE11/Linux/IE11.Win8.1.For.Linux.VirtualBox.zip.005
-https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VirtualBox/IE11/Linux/IE11.Win8.1.For.Linux.VirtualBox.zip.006
+https://az792536.vo.msecnd.net/vms/VMBuild_20180102/VirtualBox/IE11/IE11.Win81.VirtualBox.zip
