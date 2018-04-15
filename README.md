@@ -18,6 +18,7 @@ Has been tested under Ubuntu 16.04LTS (previously 14.04LTS) with [VirtualBox](ht
 	- [MS Edge - Windows 10 Preview (15.15063)](#ms-edge---windows-10-preview-1515063)
 	- [MS Edge - Windows 10 Stable (16.16299)](#ms-edge---windows-10-stable-1616299)
 	- [MS Edge - Windows 10 Preview (17.17074)](#ms-edge---windows-10-preview-1717074)
+	- [MS Edge - Windows 10 Preview (17.17127)](#ms-edge---windows-10-preview-1717127)
 - [Activating images](#activating-images)
 - [Rearming images](#rearming-images)
 - [Reference](#reference)
@@ -28,7 +29,7 @@ Has been tested under Ubuntu 16.04LTS (previously 14.04LTS) with [VirtualBox](ht
 - Select the decompressed Open Virtualization Format `ovf` file.
 - Review virtual machine name and settings (adjusting to suit if required), then click `Import`.
 - Before starting the image, create a snapshot of the current machine state - this will allow you to quickly roll back to a fresh virtual machine once the usage period of the OS expires.
-- All images are **32bit** virtual machines *except* for the following, which are **64 bit**:
+- Images are **32bit** virtual machines *except* for the following, which are **64 bit**:
 	- [MS Edge - Windows 10 Stable (13.10586)](#ms-edge---windows-10-stable-1310586)
 	- [MS Edge - Windows 10 Preview (14.14342)](#ms-edge---windows-10-preview-1414342)
 	- [MS Edge - Windows 10 Stable (14.14393)](#ms-edge---windows-10-stable-1414393)
@@ -37,6 +38,7 @@ Has been tested under Ubuntu 16.04LTS (previously 14.04LTS) with [VirtualBox](ht
 	- [MS Edge - Windows 10 Preview (15.15063)](#ms-edge---windows-10-preview-1515063)
 	- [MS Edge - Windows 10 Stable (16.16299)](#ms-edge---windows-10-stable-1616299)
 	- [MS Edge - Windows 10 Preview (17.17074)](#ms-edge---windows-10-preview-1717074)
+	- [MS Edge - Windows 10 Preview (17.17127)](#ms-edge---windows-10-preview-1717127)
 - You may need to update the images installed **VirtualBox Guest Additions** after VM startup to match that of your VirtualBox version.
 - It's a smart idea to keep a clean copy of each `ovf` disk image once the OS usage period ends, to avoid a full image re-download hit.
 
@@ -209,6 +211,19 @@ $ rm msedge-windows10-17.17074.txt MSEdge.Win10_preview.VirtualBox.zip
 ```
 
 - Use the resulting `MSEdge - Win10.ova` with VirtualBox.
+- Recommended 2048MB RAM minimum.
+- After install you will need to [activate the trial](#activating-images) to gain a full 90 days usage period, after which you may be able to [rearm the image](#rearming-images).
+
+
+### MS Edge - Windows 10 Preview (17.17127)
+```sh
+$ mkdir --parents ~/vm/msedge-windows10-17.17127 && cd ~/vm/msedge-windows10-17.17127
+$ wget --continue --input-file https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/msedge-windows10-17.17127.txt
+$ unzip MSEdge.Win10_preview.VirtualBox.zip
+$ rm msedge-windows10-17.17127.txt MSEdge.Win10_preview.VirtualBox.zip
+```
+
+- Use the resulting `MSEdge - Win10_preview.ova` with VirtualBox.
 - Recommended 2048MB RAM minimum.
 - After install you will need to [activate the trial](#activating-images) to gain a full 90 days usage period, after which you may be able to [rearm the image](#rearming-images).
 
