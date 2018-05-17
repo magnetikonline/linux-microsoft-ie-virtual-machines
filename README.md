@@ -1,7 +1,7 @@
 # Running IE 8/9/10/11/Edge Virtual machines from Microsoft under Linux via VirtualBox
 Detailed step-by-step notes for installing the [Microsoft provided Internet Explorer virtual machines](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/linux/) under Linux using VirtualBox.
 
-Has been tested under Ubuntu 16.04LTS (previously 14.04LTS) with [VirtualBox](https://www.virtualbox.org) version 5.2.
+Tested under Ubuntu 16.04LTS (previously 14.04LTS) with [VirtualBox](https://www.virtualbox.org) version 5.2.
 
 - [General notes](#general-notes)
 - [Available images](#available-images)
@@ -19,6 +19,7 @@ Has been tested under Ubuntu 16.04LTS (previously 14.04LTS) with [VirtualBox](ht
 	- [MS Edge - Windows 10 Stable (16.16299)](#ms-edge---windows-10-stable-1616299)
 	- [MS Edge - Windows 10 Preview (17.17074)](#ms-edge---windows-10-preview-1717074)
 	- [MS Edge - Windows 10 Preview (17.17127)](#ms-edge---windows-10-preview-1717127)
+	- [MS Edge - Windows 10 Stable (17.17134)](#ms-edge---windows-10-stable-1717134)
 - [Activating images](#activating-images)
 - [Rearming images](#rearming-images)
 - [Reference](#reference)
@@ -39,6 +40,7 @@ Has been tested under Ubuntu 16.04LTS (previously 14.04LTS) with [VirtualBox](ht
 	- [MS Edge - Windows 10 Stable (16.16299)](#ms-edge---windows-10-stable-1616299)
 	- [MS Edge - Windows 10 Preview (17.17074)](#ms-edge---windows-10-preview-1717074)
 	- [MS Edge - Windows 10 Preview (17.17127)](#ms-edge---windows-10-preview-1717127)
+	- [MS Edge - Windows 10 Stable (17.17134)](#ms-edge---windows-10-stable-1717134)
 - You may need to update the images installed **VirtualBox Guest Additions** after VM startup to match that of your VirtualBox version.
 - It's a smart idea to keep a clean copy of each `ovf` disk image once the OS usage period ends, to avoid a full image re-download hit.
 
@@ -228,8 +230,21 @@ $ rm msedge-windows10-17.17127.txt MSEdge.Win10_preview.VirtualBox.zip
 - After install you will need to [activate the trial](#activating-images) to gain a full 90 days usage period, after which you may be able to [rearm the image](#rearming-images).
 
 
+### MS Edge - Windows 10 Stable (17.17134)
+```sh
+$ mkdir --parents ~/vm/msedge-windows10-17.17134 && cd ~/vm/msedge-windows10-17.17134
+$ wget --continue --input-file https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/msedge-windows10-17.17134.txt
+$ unzip MSEdge.Win10.VirtualBox.zip
+$ rm msedge-windows10-17.17134.txt MSEdge.Win10.VirtualBox.zip
+```
+
+- Use the resulting `MSEdge - Win10.ova` with VirtualBox.
+- Recommended 2048MB RAM minimum.
+- After install you will need to [activate the trial](#activating-images) to gain a full 90 days usage period, after which you may be able to [rearm the image](#rearming-images).
+
+
 ## Activating images
-For Windows **7, 8, 8.1 and 10** images once connected to the Internet you will need to activate the OS trial to give a full 90 days of use. Enter the following from the Command Prompt running as administrator (Start - Right click Command Prompt - Run as administrator):
+For Windows **7, 8.1 and 10** images once connected to the Internet you will need to activate the OS trial to give a full 90 days of use. Enter the following from the Command Prompt running as administrator (Start - Right click Command Prompt - Run as administrator):
 
 ```
 C:\> slmgr /ato
