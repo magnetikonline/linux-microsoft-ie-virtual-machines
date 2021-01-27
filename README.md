@@ -25,6 +25,7 @@ Tested under Ubuntu 16.04LTS (previously 14.04LTS) with [VirtualBox](https://www
 - [Reference](#reference)
 
 ## General notes
+
 - Download, re-construct and decompress archive image as per each images instructions below.
 - From VirtualBox goto `File` -> `Import Appliance...`
 - Select the decompressed Open Virtualization Format `ovf` file.
@@ -50,7 +51,7 @@ Tested under Ubuntu 16.04LTS (previously 14.04LTS) with [VirtualBox](https://www
 ### IE8 - Windows 7
 ```sh
 $ mkdir --parents ~/vm/ie8-windows7 && cd ~/vm/ie8-windows7
-$ wget --continue --input-file https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/ie8-windows7.txt
+$ wget --continue --input-file https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/main/vmarchiveset/ie8-windows7.txt
 $ unzip IE8.Win7.VirtualBox.zip
 $ rm IE8.Win7.VirtualBox.zip
 ```
@@ -63,7 +64,7 @@ $ rm IE8.Win7.VirtualBox.zip
 ### IE9 - Windows 7
 ```sh
 $ mkdir --parents ~/vm/ie9-windows7 && cd ~/vm/ie9-windows7
-$ wget --continue --input-file https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/ie9-windows7.txt
+$ wget --continue --input-file https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/main/vmarchiveset/ie9-windows7.txt
 $ unzip IE9.Win7.VirtualBox.zip
 $ rm IE9.Win7.VirtualBox.zip
 ```
@@ -76,7 +77,7 @@ $ rm IE9.Win7.VirtualBox.zip
 ### IE10 - Windows 7
 ```sh
 $ mkdir --parents ~/vm/ie10-windows7 && cd ~/vm/ie10-windows7
-$ wget --continue --input-file https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/ie10-windows7.txt
+$ wget --continue --input-file https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/main/vmarchiveset/ie10-windows7.txt
 $ unzip IE10.Win7.VirtualBox.zip
 $ rm IE10.Win7.VirtualBox.zip
 ```
@@ -89,7 +90,7 @@ $ rm IE10.Win7.VirtualBox.zip
 ### IE11 - Windows 7
 ```sh
 $ mkdir --parents ~/vm/ie11-windows7 && cd ~/vm/ie11-windows7
-$ wget --continue --input-file https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/ie11-windows7.txt
+$ wget --continue --input-file https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/main/vmarchiveset/ie11-windows7.txt
 $ unzip IE11.Win7.VirtualBox.zip
 $ rm IE11.Win7.VirtualBox.zip
 ```
@@ -102,7 +103,7 @@ $ rm IE11.Win7.VirtualBox.zip
 ### IE11 - Windows 8.1
 ```sh
 $ mkdir --parents ~/vm/ie11-windows8.1 && cd ~/vm/ie11-windows8.1
-$ wget --continue --input-file https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/ie11-windows8.1.txt
+$ wget --continue --input-file https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/main/vmarchiveset/ie11-windows8.1.txt
 $ unzip IE11.Win81.VirtualBox.zip
 $ rm IE11.Win81.VirtualBox.zip
 ```
@@ -115,7 +116,7 @@ $ rm IE11.Win81.VirtualBox.zip
 ### MS Edge - Windows 10 Stable (13.10586)
 ```sh
 $ mkdir --parents ~/vm/msedge-windows10-13.10586 && cd ~/vm/msedge-windows10-13.10586
-$ wget --continue --input-file https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/msedge-windows10-13.10586.txt
+$ wget --continue --input-file https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/main/vmarchiveset/msedge-windows10-13.10586.txt
 $ unzip MSEdge.Win10TH2.VirtualBox.zip
 $ rm msedge-windows10-13.10586.txt MSEdge.Win10TH2.VirtualBox.zip
 ```
@@ -128,7 +129,7 @@ $ rm msedge-windows10-13.10586.txt MSEdge.Win10TH2.VirtualBox.zip
 ### MS Edge - Windows 10 Preview (14.14342)
 ```sh
 $ mkdir --parents ~/vm/msedge-windows10-14.14342 && cd ~/vm/msedge-windows10-14.14342
-$ wget --continue --input-file https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/msedge-windows10-14.14342.txt
+$ wget --continue --input-file https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/main/vmarchiveset/msedge-windows10-14.14342.txt
 $ unzip MSEdge.Win10_preview.VirtualBox.zip
 $ rm msedge-windows10-14.14342.txt MSEdge.Win10_preview.VirtualBox.zip
 ```
@@ -141,7 +142,7 @@ $ rm msedge-windows10-14.14342.txt MSEdge.Win10_preview.VirtualBox.zip
 ### MS Edge - Windows 10 Stable (14.14393)
 ```sh
 $ mkdir --parents ~/vm/msedge-windows10-14.14393 && cd ~/vm/msedge-windows10-14.14393
-$ wget --continue --input-file https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/msedge-windows10-14.14393.txt
+$ wget --continue --input-file https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/main/vmarchiveset/msedge-windows10-14.14393.txt
 $ unzip MSEdge.Win10_RS1.VirtualBox.zip
 $ rm msedge-windows10-14.14393.txt MSEdge.Win10_RS1.VirtualBox.zip
 ```
@@ -154,7 +155,7 @@ $ rm msedge-windows10-14.14393.txt MSEdge.Win10_RS1.VirtualBox.zip
 ### MS Edge - Windows 10 Preview (15.14959)
 ```sh
 $ mkdir --parents ~/vm/msedge-windows10-15.14959 && cd ~/vm/msedge-windows10-15.14959
-$ wget --continue --input-file https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/msedge-windows10-15.14959.txt
+$ wget --continue --input-file https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/main/vmarchiveset/msedge-windows10-15.14959.txt
 $ unzip MSEdge.Win10_preview.VirtualBox.zip
 $ rm msedge-windows10-15.14959.txt MSEdge.Win10_preview.VirtualBox.zip
 ```
@@ -167,7 +168,7 @@ $ rm msedge-windows10-15.14959.txt MSEdge.Win10_preview.VirtualBox.zip
 ### MS Edge - Windows 10 Preview (15.15014)
 ```sh
 $ mkdir --parents ~/vm/msedge-windows10-15.15014 && cd ~/vm/msedge-windows10-15.15014
-$ wget --continue --input-file https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/msedge-windows10-15.15014.txt
+$ wget --continue --input-file https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/main/vmarchiveset/msedge-windows10-15.15014.txt
 $ unzip MSEdge.Win10_preview.VirtualBox.zip
 $ rm msedge-windows10-15.15014.txt MSEdge.Win10_preview.VirtualBox.zip
 ```
@@ -180,7 +181,7 @@ $ rm msedge-windows10-15.15014.txt MSEdge.Win10_preview.VirtualBox.zip
 ### MS Edge - Windows 10 Preview (15.15063)
 ```sh
 $ mkdir --parents ~/vm/msedge-windows10-15.15063 && cd ~/vm/msedge-windows10-15.15063
-$ wget --continue --input-file https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/msedge-windows10-15.15063.txt
+$ wget --continue --input-file https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/main/vmarchiveset/msedge-windows10-15.15063.txt
 $ unzip MSEdge.Win10.RS2.VirtualBox.zip
 $ rm msedge-windows10-15.15063.txt MSEdge.Win10.RS2.VirtualBox.zip
 ```
@@ -194,7 +195,7 @@ $ rm msedge-windows10-15.15063.txt MSEdge.Win10.RS2.VirtualBox.zip
 ### MS Edge - Windows 10 Stable (16.16299)
 ```sh
 $ mkdir --parents ~/vm/msedge-windows10-16.16299 && cd ~/vm/msedge-windows10-16.16299
-$ wget --continue --input-file https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/msedge-windows10-16.16299.txt
+$ wget --continue --input-file https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/main/vmarchiveset/msedge-windows10-16.16299.txt
 $ unzip MSEdge.Win10.VirtualBox.zip
 $ rm msedge-windows10-16.16299.txt MSEdge.Win10.VirtualBox.zip
 ```
@@ -207,7 +208,7 @@ $ rm msedge-windows10-16.16299.txt MSEdge.Win10.VirtualBox.zip
 ### MS Edge - Windows 10 Preview (17.17074)
 ```sh
 $ mkdir --parents ~/vm/msedge-windows10-17.17074 && cd ~/vm/msedge-windows10-17.17074
-$ wget --continue --input-file https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/msedge-windows10-17.17074.txt
+$ wget --continue --input-file https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/main/vmarchiveset/msedge-windows10-17.17074.txt
 $ unzip MSEdge.Win10_preview.VirtualBox.zip
 $ rm msedge-windows10-17.17074.txt MSEdge.Win10_preview.VirtualBox.zip
 ```
@@ -220,7 +221,7 @@ $ rm msedge-windows10-17.17074.txt MSEdge.Win10_preview.VirtualBox.zip
 ### MS Edge - Windows 10 Preview (17.17127)
 ```sh
 $ mkdir --parents ~/vm/msedge-windows10-17.17127 && cd ~/vm/msedge-windows10-17.17127
-$ wget --continue --input-file https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/msedge-windows10-17.17127.txt
+$ wget --continue --input-file https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/main/vmarchiveset/msedge-windows10-17.17127.txt
 $ unzip MSEdge.Win10_preview.VirtualBox.zip
 $ rm msedge-windows10-17.17127.txt MSEdge.Win10_preview.VirtualBox.zip
 ```
@@ -233,7 +234,7 @@ $ rm msedge-windows10-17.17127.txt MSEdge.Win10_preview.VirtualBox.zip
 ### MS Edge - Windows 10 Stable (17.17134)
 ```sh
 $ mkdir --parents ~/vm/msedge-windows10-17.17134 && cd ~/vm/msedge-windows10-17.17134
-$ wget --continue --input-file https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/master/vmarchiveset/msedge-windows10-17.17134.txt
+$ wget --continue --input-file https://github.com/magnetikonline/linuxmicrosoftievirtualmachines/raw/main/vmarchiveset/msedge-windows10-17.17134.txt
 $ unzip MSEdge.Win10.VirtualBox.zip
 $ rm msedge-windows10-17.17134.txt MSEdge.Win10.VirtualBox.zip
 ```
@@ -253,6 +254,7 @@ C:\> slmgr /ato
 After a short delay you should be presented with a dialog telling you your Windows OS has been successfully activated for a 90 day trial.
 
 ## Rearming images
+
 For Windows **7** images you *may* be able to extend the initial trial usage period once it has expired via the "rearm" process. Enter the following as an administrator from the command prompt:
 
 ```
@@ -263,6 +265,7 @@ It is not currently possible to rearm the trial period of **Windows 8.1 or 10** 
 
 
 ## Reference
+
 - https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/linux/
 - http://modernievirt.blob.core.windows.net/vhd/release_notes_license_terms_1_5_15.pdf
 - https://blog.reybango.com/2013/02/04/making-internet-explorer-testing-easier-with-new-ie-vms/
