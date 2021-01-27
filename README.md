@@ -1,4 +1,11 @@
 # Running IE 8/9/10/11/Edge Virtual machines from Microsoft under Linux via VirtualBox
+
+:warning::warning::warning::warning:
+
+**Microsoft have (sadly) removed most (if not all) of these VM images from their public CDN. Repository will remain for historical purposes.**
+
+:warning::warning::warning::warning:
+
 Detailed step-by-step notes for installing the [Microsoft provided Internet Explorer virtual machines](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/linux/) under Linux using VirtualBox.
 
 Tested under Ubuntu 16.04LTS (previously 14.04LTS) with [VirtualBox](https://www.virtualbox.org) version 5.2.
